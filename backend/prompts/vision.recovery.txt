@@ -1,0 +1,15 @@
+OUTPUT RECOVERY
+
+The previous attempt did not produce a complete, schema-valid response. Re-examine
+the original images and catalog source fields. Return one complete JSON object
+with description and catalog_extraction, following the original evidence rules.
+
+For this retry, keep description to at most 120 Hebrew words. For a document,
+summarize its layout and quote only a few clearly readable, distinctive words.
+Preserve quoted text in its original language and script. Mark unclear text as
+unreadable; do not complete names, dates, numbers or missing words.
+
+Keep catalog_extraction separate and grounded only in the original catalog.
+Use empty names/places arrays and null years when the catalog lacks evidence.
+Do not repeat text to fill space. Finish both JSON fields and close the object.
+Return only JSON, without Markdown fences, commentary or additional fields.

@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Yad Vashem archive",
+      "Group": "Local",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "archive",
+      "Username": "archive",
+      "SSLMode": "prefer"
+    }
+  }
+}

@@ -14,4 +14,3 @@ COPY integrations integrations
 COPY prompts prompts
 COPY schemas schemas
 COPY services services
-COPY tests tests
